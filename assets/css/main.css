@@ -685,6 +685,7 @@ footer .address-list li p {
   font-size: 14px;
   max-width: 220px;
   color: #010101 !important;
+  text-decoration: none !important;
 }
 footer .address-list li .icons {
   border: 1px solid #ABACB2;
