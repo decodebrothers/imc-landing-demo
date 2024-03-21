@@ -130,7 +130,9 @@ main {
     background-attachment: fixed;
     background-size: cover;
     @media screen and (max-width:991px) {
-        background-position: 48%;
+        background-position: center;
+        background-attachment: initial;
+        padding: 7rem 0;
     }
     h2{
         font-size: 6.5rem;
@@ -639,6 +641,7 @@ footer {
                 margin: 0;
                 font-size: 14px;
                 max-width: 220px;
+                color: #010101 !important;
             }
             .icons {
                 border: 1px solid $border-color-base;

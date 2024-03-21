@@ -129,7 +129,9 @@ main {
 }
 @media screen and (max-width: 991px) {
   .trust-section {
-    background-position: 48%;
+    background-position: center;
+    background-attachment: initial;
+    padding: 7rem 0;
   }
 }
 .trust-section h2 {
@@ -682,6 +684,7 @@ footer .address-list li p {
   margin: 0;
   font-size: 14px;
   max-width: 220px;
+  color: #010101 !important;
 }
 footer .address-list li .icons {
   border: 1px solid #ABACB2;
